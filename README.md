@@ -22,4 +22,7 @@ Licensed under the [MIT License](LICENSE)
 
 ## Contact Me
 
+- [GitHub](https://github.com/Kevin-Hernandez-Garza)
+- [Email](mailto:kev.hernandezgarza@gmail.com)
+
 ### © Created with 💜 by Kevin Hernandez
