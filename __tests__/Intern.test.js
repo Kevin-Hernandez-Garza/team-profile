@@ -22,11 +22,11 @@ test('gets intern basic information', () => {
 test('gets intern school', () => {
     const intern = new Intern('Kevin', '1234', 'kev.hernandezgarza@gmail.com', 'UT-Austin', 'Intern');
 
-    expect(intern.getSchool()).toBe('UT-Austin');
+    expect(intern.getSchool()).toEqual(intern.school);
 });
 
 test('gets intern role', () => {
     const intern = new Intern('Kevin', '1234', 'kev.hernandezgarza@gmail.com', 'UT-Austin', 'Intern');
 
-    expect(intern.getRole()).toBe('Intern');
+    expect(intern.getRole()).toEqual('Intern');
 });

@@ -21,6 +21,8 @@ Licensed under the [MIT License](LICENSE)
 
 ## Demo
 
+[Watch The Demo]()
+
 ## Installation
 
 - This application used the Jest testing framework to do "Unit Testing", and it also uses the NPM called "Inquirer" to prompt thee user with questions about the employees in the team.

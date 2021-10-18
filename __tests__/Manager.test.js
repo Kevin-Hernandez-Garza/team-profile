@@ -18,13 +18,13 @@ test('get managers  basic information', () => {
 });
 
 test('gets managers office number', () => {
-    const manager = new Manager('Kevin', '1234', 'kev.hernandezgarza@gmail.com', 'Manager', '567')
+    const manager = new Manager('Kevin', '1234', 'kev.hernandezgarza@gmail.com', '567', 'Manager')
 
     expect(manager.officeNumber).toBe('567');
 });
 
 test('gets manager role', () => {
-    const manager = new Manager('Kevin', '1234', 'kev.hernandezgarza@gmail.com', 'Manager', '567');
+    const manager = new Manager('Kevin', '1234', 'kev.hernandezgarza@gmail.com', '567', 'Manager');
 
-    expect(manager.getRole()).toBe('Manager');
+    expect(manager.getRole()).toEqual('Manager');
 });
